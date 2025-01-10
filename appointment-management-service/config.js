@@ -1,16 +1,16 @@
 // Read configuration from the environment
 
 // Datbase configruation
-const dbHost = '';
-const dbUser = '';
-const dbPassword = '';
-const dbName = '';
-const dbPort = '';
+const dbHost = process.env.DB_HOST;
+const dbUser = process.env.DB_USER;
+const dbPassword =process.env.DB_PASSWORD;
+const dbName = process.env.DB_NAME;
+const dbPort = process.env.DB_PORT;
 
 // Twilio configruation
-const twilioAccountSid = '';
-const twilioAuthToken = '';
-const twilioFromPhoneNumber = '';
+const twilioAccountSid = process.env.TWILIO_ACCOUNT_SID;
+const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN;
+const twilioFromPhoneNumber = process.env.TWILIO_FROM_PHONE_NUMBER;
 
 // User Manager configruation
 const userManagerServiceUrl = '';
