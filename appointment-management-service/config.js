@@ -8,9 +8,9 @@ const dbName = process.env.DB_NAME;
 const dbPort = process.env.DB_PORT;
 
 // Twilio configruation
-const twilioAccountSid = process.env.TWILIO_ACCOUNT_SID;
-const twilioAuthToken = process.env.TWILIO_AUTH_TOKEN;
-const twilioFromPhoneNumber = process.env.TWILIO_FROM_PHONE_NUMBER;
+const twilioAccountSid = process.env.SID;
+const twilioAuthToken = process.env.TOKEN;
+const twilioFromPhoneNumber = process.env.PHONE;
 
 // User Manager configruation
 const userManagerServiceUrl = '';
